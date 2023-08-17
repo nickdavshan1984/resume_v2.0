@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../resume_v1.0"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "resume_v2.0"
+	}
+}
