@@ -1,14 +1,251 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import "./nullstyles.scss";
 
+/*-------- common -------*/
 body {
 	font-family: 'Montserrat';
 	font-size: 14px;
 	font-weight: 400;
+	line-height: 1.7;
+   color: #595959;
 }
 
 [class*=__container] {
 	max-width: 1240px;
 	padding: 0 15px;
 	margin: 0 auto;
+}
+
+.wrapper {
+   overflow: hidden;
+   min-height: 100%;
+}
+.header-doc {
+   font-size: 45px;
+   font-weight: 700;
+   color: #000;
+}
+.header-block {
+	font-size: 22px;
+   font-weight: 700;
+}
+
+.header-block-1 {
+	color: #fff;
+}
+
+.header-block-2 {
+	color: #000;
+}
+
+
+/*----------- mods ------------*/
+.link--tel {
+	&:hover {
+      text-decoration: underline;
+   }
+}
+.link--mail {
+	text-decoration: underline;
+   &:hover {
+      text-decoration: none;
+   }
+}
+
+/*----------- main ------------*/
+.main {
+	&__body {
+		display: flex;
+	}
+
+	&__block-1 {
+		 padding: 0 0 0 0;
+	}
+
+	&__block-2 {
+	}
+
+	&__experience {
+	}
+
+	&__education {
+	}
+}
+.block-1 {
+	flex: 0 1 30.6%;
+	background: #1e2939;
+	&__body {
+
+	}
+	&__photo {
+		margin: 40px 0 0 0;
+      padding: 0 0 95.5% 0;
+	}
+
+	&__info {
+	}
+}
+.photo {
+	width: 100%;
+   height: 100%;
+   position: relative;
+   overflow: hidden;
+
+   img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+   }
+}
+.info {
+
+	&__contacts {
+	}
+
+	&__tech-skills {
+	}
+}
+.contacts {
+
+	&__header {
+	}
+
+	&__items {
+	}
+}
+
+.items-contacts {
+	&__item:not(:last-child) {
+      margin: 0 0 5px 0;
+   }
+   span {
+      font-weight: 700;
+		margin: 0 10px 0 0;
+      color: #fff;
+   }
+	&__item {
+	}
+}
+.item-contacts {
+
+	&__link {
+	}
+}
+.link-contacts {
+	color: #fff;
+   opacity: 0.5;
+}
+
+.tech-skills {
+
+	&__header {
+	}
+
+	&__list {
+	}
+}
+.list-block-1 {
+}
+
+.info-aside {
+
+	&__soft-skills {
+	}
+}
+.soft-skills {
+
+	&__header {
+	}
+
+	&__list {
+	}
+}
+.block-2 {
+	flex: 0 1 69.4%;
+	background: rgb(255, 255, 255);
+	&__body {
+
+	}
+	
+	&__about {
+	}
+
+	&__projects {
+	}
+}
+.about {
+
+	&__title {
+	}
+
+	&__header {
+	}
+
+	&__text {
+	}
+}
+.title-function {
+}
+.header-doc {
+}
+.text-about {
+}
+.projects-main {
+
+	&__header {
+	}
+
+	&__list {
+	}
+
+	&__link {
+	}
+}
+
+.list-projects {
+}
+.link-projects {
+}
+.experience-main {
+
+	&__header {
+	}
+
+	&__items {
+	}
+}
+.items-experience {
+
+	&__item {
+	}
+}
+.item-experience {
+
+	&__title {
+	}
+
+	&__data {
+	}
+
+	&__list {
+	}
+}
+.title-main {
+}
+.data {
+}
+.list-experince {
+}
+.education {
+
+	&__header {
+	}
+
+	&__title {
+	}
+
+	&__data {
+	}
 }
