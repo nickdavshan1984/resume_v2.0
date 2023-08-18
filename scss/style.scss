@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import "./nullstyles.scss";
+
 body {
-	background: orange;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 400;
+}
+
+[class*=__container] {
+	max-width: 1240px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
