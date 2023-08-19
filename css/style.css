@@ -72,6 +72,13 @@ body {
   color: #000;
 }
 
+.title-function {
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+
+/*-------- var -------*/
 /*----------- mods ------------*/
 .link--tel:hover {
   text-decoration: underline;
@@ -89,16 +96,30 @@ body {
   display: flex;
 }
 .main__block-1 {
-  padding: 0 0 0 0;
+  position: relative;
+  z-index: 1;
+}
+.main__block-2 {
+  width: 1134px;
+  position: absolute;
+  top: 100px;
+  left: 303px;
 }
 .block-1 {
   flex: 0 1 30.6%;
   background: #1e2939;
 }
+.block-1__body {
+  padding: 0 0 370px 0;
+}
 .block-1__photo {
   margin: 40px 0 0 0;
   padding: 0 0 95.5% 0;
 }
+.block-1__info {
+  padding: 50px 0 0 40px;
+}
+
 .photo {
   width: 100%;
   height: 100%;
@@ -114,6 +135,9 @@ body {
      object-fit: cover;
 }
 
+.contacts__header {
+  margin: 0 0 8px 0;
+}
 .items-contacts__item:not(:last-child) {
   margin: 0 0 5px 0;
 }
@@ -127,7 +151,88 @@ body {
   opacity: 0.5;
 }
 
+.tech-skills__header {
+  margin: 0 0 8px 0;
+}
+.tech-skills__list {
+  margin: 0 0 0 15px;
+}
+
+.list-block-1 {
+  color: rgb(255, 255, 255);
+}
+.list-block-1 li::marker {
+  color: #fb6d3a;
+}
+
+.soft-skills__list {
+  margin: 0 0 0 15px;
+}
+
 .block-2 {
   flex: 0 1 69.4%;
-  background: rgb(255, 255, 255);
+}
+.block-2__body {
+  padding: 0 0 150px 430px;
+}
+.block-2 li {
+  margin: 0 0 0 17px;
+}
+
+.text-about {
+  max-width: 400px;
+}
+
+.list-projects li::marker {
+  font-weight: 700;
+  color: #000;
+}
+.list-projects span {
+  font-weight: 700;
+  color: #000;
+}
+
+.link-projects {
+  color: #595959;
+}
+.link-projects:hover {
+  text-decoration: underline;
+  color: #fb6d3a;
+}
+
+.items-experience {
+  max-width: 521px;
+}
+.items-experience__item:not(:last-child) {
+  margin: 0 0 20px 0;
+}
+.item-experience__title {
+  margin: 0 0 11px 0;
+}
+.item-experience__data {
+  margin: 0 0 8px 0;
+}
+.title-main {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fb6d3a;
+}
+.title-main span {
+  color: #000;
+}
+
+.data {
+  position: relative;
+  font-size: 12px;
+  color: #a8a8a8;
+}
+.data span::after {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  position: relative;
+  top: 4px;
+  left: 0;
+  border: solid 1px #a8a8a8;
+  margin: 0 15px 0 15px;
 }
