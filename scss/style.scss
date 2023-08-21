@@ -114,10 +114,11 @@ $lb-1-left: 0 0 0 15px;
 }
 .info {
 	&__contacts {
+		margin: 0 0 47px 0;
 	}
 
 	&__tech-skills {
-		
+		margin: 0 0 47px 0;
 	}
 }
 .contacts {
@@ -190,9 +191,15 @@ $lb-1-left: 0 0 0 15px;
 	}
 	
 	&__about {
+		margin: 0 0 40px 0;
 	}
 
 	&__projects {
+		margin: 0 0 50px 0;
+	}
+   
+	&__experience {
+		margin: 0 0 45px 0;
 	}
 
 	li {
@@ -245,7 +252,7 @@ $lb-1-left: 0 0 0 15px;
       color: #fb6d3a;
    }
 }
-.experience-main {
+.experience {
 
 	&__header {
 	}
@@ -300,12 +307,15 @@ $lb-1-left: 0 0 0 15px;
 .education {
 
 	&__header {
+		margin: 0 0 5px 0;
 	}
 
 	&__title {
+		margin: 0 0 5px 0;
 	}
 
 	&__data {
+		margin: 0 0 5px 0;
 	}
 }
 }

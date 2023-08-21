@@ -135,6 +135,13 @@ body {
      object-fit: cover;
 }
 
+.info__contacts {
+  margin: 0 0 47px 0;
+}
+.info__tech-skills {
+  margin: 0 0 47px 0;
+}
+
 .contacts__header {
   margin: 0 0 8px 0;
 }
@@ -174,6 +181,15 @@ body {
 }
 .block-2__body {
   padding: 0 0 150px 430px;
+}
+.block-2__about {
+  margin: 0 0 40px 0;
+}
+.block-2__projects {
+  margin: 0 0 50px 0;
+}
+.block-2__experience {
+  margin: 0 0 45px 0;
 }
 .block-2 li {
   margin: 0 0 0 17px;
@@ -235,4 +251,13 @@ body {
   left: 0;
   border: solid 1px #a8a8a8;
   margin: 0 15px 0 15px;
+}
+.data .education__header {
+  margin: 0 0 5px 0;
+}
+.data .education__title {
+  margin: 0 0 5px 0;
+}
+.data .education__data {
+  margin: 0 0 5px 0;
 }
